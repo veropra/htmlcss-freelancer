@@ -1,0 +1,75 @@
+/*NAVBAR*/
+.blue{
+  background-color: #34495e;
+  color: #fff;
+  width: 100%;
+  padding: 30px 20px;
+}
+.navbar-default{
+  background-color: #34495e;
+  color: #fff;
+  border-color: #34495e;
+}
+.navbar-default .navbar-brand{
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar{
+  margin-bottom: 0;
+  border-radius: 0px;
+}
+/*SECTION GREEN CONTAINER 1*/
+.verde{
+  background-color: #1abc9c;
+  color: #fff;
+  width: 100%;
+  padding: 60px 30px;
+}
+
+/*SECTION WHITE 1*/
+.white{
+  color: #34495e;
+  width: 100%;
+  padding: 60px 30px;
+}
+
+.row{
+  width: 100%;
+  padding: 20px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*SECTION WHITE 2*/
+.dati{
+  color: gray;
+}
+#sendMessageButton{
+  background-color: #1abc9c;
+  color: #fff;
+  border-radius: 5px;
+  width: 20%;
+}
+
+/*SECTION DARK-BLUE*/
+.dark-blue{
+  background-color: #222f3e;
+  color: #fff;
+}
+
+@media all and (max-width: 768px){
+  .col-md-4 > img, .col-md-12 > img{
+    max-width: 100%;
+    height: auto;
+  }
+  footer .col-md-3, .col-md-4{
+    margin-bottom: 40px;
+  }
+  section{
+    padding: 0 0;
+  }
